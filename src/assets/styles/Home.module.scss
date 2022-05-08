@@ -1,0 +1,37 @@
+.scene {
+  background-image: url("../images/illustrations/navbar-scene.png");
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 951px;
+  .title {
+    max-width: 741px;
+  }
+  .button {
+    margin-top: 60px;
+  }
+}
+
+.paragraph {
+  max-width: 470px;
+  margin-top: 40px;
+}
+
+.notification {
+  padding: 30px 55px;
+  max-width: 570px;
+  margin-top: 70px;
+  border-radius: 5px 0px 0px 5px;
+  &::after {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: var(--red);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: inherit;
+  }
+}

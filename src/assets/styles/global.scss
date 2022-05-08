@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./colors.scss");
+
+.jump-animation {
+  @apply transition transform hover:-translate-y-1;
+}
+
+section {
+  margin-top: 160px;
+}
